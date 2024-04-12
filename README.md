@@ -21,7 +21,8 @@ If you want to compile the latest git HEAD, you need to clone the entire reposit
 
 ### Preparation
 #### Using SDK
-Download and extract the SDK you need. For example(Snapshots on ar71xx):
+Download and extract the SDK you need. Or just git clone https://github.com/openwrt/openwrt.git
+For example(Snapshots on ar71xx):
 ```bash
 wget https://downloads.openwrt.org/snapshots/targets/ar71xx/generic/openwrt-sdk-ar71xx-generic_gcc-5.5.0_musl.Linux-x86_64.tar.xz
 tar -Jxvf openwrt-sdk-ar71xx-generic_gcc-5.5.0_musl.Linux-x86_64.tar.xz
