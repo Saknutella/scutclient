@@ -22,8 +22,9 @@ If you want to compile the latest git HEAD, you need to clone the entire reposit
 ### Preparation
 #### Using SDK
 ####This is the preferred way of doing it, Because some systems won't show up scutclient in Network tab when compiling the bin file.
-SDK could be found in https://downloads.openwrt.org. Just select what u want.
-Download and extract the SDK you need. Or just git clone https://github.com/openwrt/openwrt.git
+SDK could be found in https://downloads.openwrt.org. Just select what u want.(different from git clone)
+
+Download and extract the SDK you need. 
 For example(Snapshots on ar71xx):
 ```bash
 wget https://downloads.openwrt.org/snapshots/targets/ar71xx/generic/openwrt-sdk-ar71xx-generic_gcc-5.5.0_musl.Linux-x86_64.tar.xz
